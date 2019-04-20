@@ -23,8 +23,11 @@ public class RetsRunner
 
         // Fetch all records modified less than 24 hours ago and sold (S) or withdrawn (W)
         var timeFrom = DateTime.Now.AddHours(-24).ToString("s");
-        var query = $"ModifiedDateTime={timeFrom}+),(Status=S,W)";
-        var retsRequest = new RetsSearchRequest<RetsType>() { Query = query };
+        var statuses = new string[] { "S", "W" };
+        var statusString = String.Join(",", statuses);
+        var query = new string[] { $"(ModifiedDateTime={timeFrom}+)", $"(Status={statusString})" };
+        var queryString = String.Join(",", query);
+        var retsRequest = new RetsSearchRequest<RetsType>() { Query = queryString };
 
         // Run the search, retry twice in case of network failure
         RetsSearchResponse<RetsType> retsResultSet = await retsClient.SearchAsync(retsRequest, retries: 2);
@@ -38,7 +41,7 @@ public class RetsRunner
         var retsRequest2 = new RetsSearchRequest<RetsType>()
         {
             Offset = retsResultSet.Count,
-            Query = query
+            Query = queryString,
         };
 
         RetsSearchResponse<RetsType> retsResultSet2 = await retsClient.SearchAsync(retsRequest2, retries: 2);

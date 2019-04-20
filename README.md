@@ -3,6 +3,7 @@ A pure .NET RETS client
 
 Quick start:
 ```csharp
+// Class to stream result records into
 [RetsResource(Class = "RESIDENTIAL", SearchType = "Property")]
 public class RetsType {
     public long UniqueID {get; set;}
@@ -18,16 +19,14 @@ await retsClient.LoginAsync();
 var timeFrom = DateTime.Now.AddHours(-24).ToString("s");
 var retsRequest = new RetsSearchRequest<RetsType>()
 {
-    Query = $"ModifiedDateTime={timeFrom}+)"
+    Query = $"(ModifiedDateTime={timeFrom}+)"
 };
 var retsResultSet = await retsClient.SearchAsync(retsRequest);
 
 // Stream the results
 var recordList = new List<RetsType>();
 foreach (var retsResult in retsResultSet.RecordStream)
-{
     recordList.Add(retsResult);
-}
 
 await retsClient.LogoutAsync();
 ```
