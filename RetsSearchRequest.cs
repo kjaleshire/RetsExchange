@@ -7,16 +7,16 @@ namespace RetsExchange
     public class RetsSearchRequest<RetsType>
     where RetsType : new()
     {
+        public string Class { get; set; }
         public CountType Count { get; set; } = CountType.NO_RECORD_COUNT;
         public FormatType Format { get; set; } = FormatType.COMPACT_DECODED;
         public string Query { get; set; }
         public SearchQueryType QueryType { get; set; } = SearchQueryType.DMQL2;
+        public string SearchType { get; set; }
         public IEnumerable<string> Select { get; set; }
         public bool StandardNames { get; set; } = false;
         public int? Limit { get; set; }
         public int? Offset { get; set; }
-        public string SearchType { get; set; }
-        public string Class { get; set; }
 
         public IEnumerable<KeyValuePair<string, string>> Parameters
         {
@@ -30,12 +30,12 @@ namespace RetsExchange
         {
             var queryParams = new Dictionary<string, string>()
             {
+                ["Class"] = Class ?? retsResource().Class,
                 ["Count"] = Count.GetValue(),
                 ["Format"] = Format.GetValue(),
                 ["QueryType"] = QueryType.GetValue(),
-                ["StandardNames"] = StandardNames ? "1" : "0",
-                ["Class"] = Class ?? retsResource().Class,
                 ["SearchType"] = SearchType ?? retsResource().SearchType,
+                ["StandardNames"] = StandardNames ? "1" : "0",
             };
 
             if (!String.IsNullOrEmpty(Query))
@@ -103,11 +103,13 @@ namespace RetsExchange
 
     public enum FormatType
     {
-        COMPACT, COMPACT_DECODED
+        COMPACT,
+        COMPACT_DECODED
     }
 
     public enum SearchQueryType
     {
-        DMQL, DMQL2
+        DMQL,
+        DMQL2
     }
 }
