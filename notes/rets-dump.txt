@@ -1,0 +1,7060 @@
+Resource name: Agent [Agent]
+Class name: AGENT [Agent]
+Table name: AdministrationInformation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AgentStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CellPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: DirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: FaxPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: FirstName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: FullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: GenerationalName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HomePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: IDXOptInYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: LastName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: MailAddress []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCareOf []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCarrierRouteCode []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCountry []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MailCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailPostalCode []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: MailPostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: MailStateOrProvince []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MemberCode []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MiddleName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MUC []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Office_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: OfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OtherPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ProviderKey []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: RatePlugAccessYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: StreetAddress []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: StreetCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: StreetCountry []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: StreetPostalCode []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: StreetPostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: StreetStateOrProvince []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: WebPageAddress []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+
+Resource name: ListingSubTable [ListingSubTable]
+Class name: LISTINGUNIT [Unit]
+Table name: Access []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Deposit []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Fireplace []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Furnished []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: InclusionsFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: InputEntryOrder []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Leased []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: LeaseExpires []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MatrixTesting []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: MonthToMonth []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: NumBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumCarport []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumDiningRoom []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumFullBaths []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumGarages []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumHalfBaths []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumLivingRoom []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PetDeposit []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Pets []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: RentAmount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Rooms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ShowingInstructions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SpecialShowInstr []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: Tenant []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: UnitNum []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+
+Resource name: Media [Media]
+Class name: MEDIA [Media]
+Table name: Approved []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Description []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: matrix_unique_id []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixTesting []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: MediaPath []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ModifiedDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Order []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OriginalFilename []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Size []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Table_ID []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Table_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: Type []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: UploadDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+
+Resource name: Office [Office]
+Class name: OFFICE [Office]
+Table name: AdditionalInformation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: BrokerageOwnerCREAID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CREAID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: FaxPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: FranchiseID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: HeadOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: HeadOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: MailAddress []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCareOf []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCarrierRouteCode []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: MailPostalCode []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: MailPostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: MailStateOrProvince []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OfficeContact_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: OfficeContactMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OfficeLongName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: OfficeManager []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: OfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: OfficeStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Phone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ProviderKey []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetAddress []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: StreetCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: StreetCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: StreetPostalCode []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: StreetPostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: StreetStateOrProvince []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: WebPageAddress []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+
+Resource name: OpenHouse [OpenHouse]
+Class name: OPENHOUSE [Openhouse]
+Table name: ActiveYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Description []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: EndTime []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: EntryOrder []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Latitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: Longitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: OpenHouseDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: OpenHouseType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ProviderKey []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: Refreshments []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: StartTime []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+
+Resource name: Property [Property]
+Class name: RESI [Residential-Property]
+Table name: AC []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ActiveOpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ActualTax []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: Address []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AddressInternet []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: Allow3rdPartyComments []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AllowAutomatedValuations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AlsoListedAs []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: AppraisalAmount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Area []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AreaAmenities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AssociationFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: AssociationFeeFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AssociationFeeIncludes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AuctionDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: AuctionYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: BackOnMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: BathsFull [BathsFull]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BathsHalf [BathsHalf]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BathsTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BedsTotal [BEDS]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BodyofWater []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: BuilderName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 40
+Table name: BuyersClsgCostPdbySell []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_ChangeNotes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 250
+Table name: CDOM_Initial []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_Seed_Address_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_APN_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_Datetime []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: CDOM_Seed_Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CDOM_Seed_MLNumber []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: City [City]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CloseDate [CloseDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ClosePrice [ClosePrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: CoListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: CoListAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: CoListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: CoListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CommunityWebSite []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: ConditionalDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Construction []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CoSellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: CoSellingAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: Country []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 17
+Table name: CountyOrParish []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CoveredSpaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CreateAutomaticVirtualTourYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CurrentPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 16
+Table name: DiningDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Directions [Directions]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: DisabilityFeatures []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: DisabilityFeaturesDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: DistancetoLightRail []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistancetoMetro []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToUTShuttle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToWaterAccess []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: DownPaymentResourceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EES []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EESFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ElemAOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ElementaryA []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ETJ []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Exclusions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ExpirationDate [ExpirationDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ExteriorFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Faces []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: FEMA100YrFloodPlain []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Fence []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FenceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: FireplaceFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Flooring []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ForeclosureREO []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: ForeclosureREOType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: FoundationDetails []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: GADescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: GatedCommunity []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Gr9HighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: Gr9HighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GreenRatingProgram []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GuestAccommodations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Heating []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: HERSIndex []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HERSYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAManagementCo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOAName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOARequirement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HOATransferFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Horses []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IDXOptInYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: InteriorFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Kitchen []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: KitchenAppliances []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LandSQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: LastChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: LastChangeType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LastListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: LastStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Latitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LaundryFacilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LegalDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: ListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ListAgentMLSID [ListAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: ListingAgentFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListingContractDate [ListDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ListingFinancing []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListingOfficeFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListingWillAppearOn []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListOfficeMLSID [ListOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: ListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: ListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListPrice [ListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Longitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LotSizeArea [LotSizeArea]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotSizeDimensions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MAPSCOGrid []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: MAPSCOPage []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: MasterDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MasterMain []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MiddleIntermediateSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MiddleOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: MLNumtobeCopied []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSNumber [ListingID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: NumBlockstoMetroLightrail []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoUTShuttle []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumDining []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumFireplaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumGuestBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumGuestFullBaths []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumGuestHalfBaths []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumHorsesAllowed []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumLiving []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumMainLevelBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumOtherLevelBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumParkingSpaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: OpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OpenHouseDatePublic []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OpenHouseTimePublic []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: OpenHouseUpcoming []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: OriginalEntryTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OriginalListPrice [OriginalListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: OutdoorLivingFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: OutofAreaCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OutofAreaCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: OutofAreaSchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: OwnershipType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ParcelNumber [TaxID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 55
+Table name: ParkingFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: PendingDate [ContractDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PermitInternetYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoExist []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PoolDescronProp []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: PoolonProperty []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PostalCode [PostalCode]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 5
+Table name: PostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: PriceChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PropertyAddressonInternet []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PropertyConditionatSale []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertySubType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertyType [TYPE]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ProviderKey []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PublicRemarks []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 510
+Table name: RatingAchieved []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatingYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: RATIO_ClosePrice_By_ListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_OriginalListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_CurrentPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ListPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Region []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RepairsAmount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ReqdDocAgentInfor []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Restrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: RestrictionsYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Roof []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Rooms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SalesRestrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SearchExpireDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: SellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: SellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: SellingAgentMLSID [SaleAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: SellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingOfficeMLSID [SaleOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: SellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: SellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: SeniorHighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Sewer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SoldTerms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SpaHotTubDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SpaHotTubYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SprinklerSystem []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SqftTotal [LivingArea]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: SquareFootSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SrHighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: StateOrProvince [State]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Status [ListingStatus]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StatusChangeTimestamp [StatusChangeDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: StatusContractualSearchDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: Steps []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: StoriesLookup []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirPrefix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetName [StreetName]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetNumber [StreetNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SubdivisionName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: TaxAmount []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: TaxBlock []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxFilledSqftTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TaxLot []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxRate []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 28
+Table name: TaxYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TempOffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TentativeCloseDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Title []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TitleCompany []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: Trees []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UnitCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: UnitNumber [UnitNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: UnitStyle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEEFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEnergyEfficient []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Utilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VideoTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: VideoTourLinkUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: View []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VirtualTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: VirtualTourURLUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: WaterAccess []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterAccessDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Waterfront []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterfrontDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: WaterSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: WithdrawnDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: YearBuilt [YearBuilt]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: YearBuiltException []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+
+Resource name: Property [Property]
+Class name: LAND [Lot]
+Table name: AccessInstruction []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ActiveOpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ActualTax []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: Address []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AddressInternet []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: Allow3rdPartyComments []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AllowAutomatedValuations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AlsoListedAs []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ArchitectApproved []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Area []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AreaAmenities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AssociationFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: AssociationFeeFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AssociationFeeIncludes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AuctionDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: AuctionYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: BackOnMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: BarnCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: BodyofWater []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: BuilderRestricted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: BuildingsList []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: BuyersClsgCostPdbySell []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_ChangeNotes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 250
+Table name: CDOM_Initial []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_Seed_Address_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_APN_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_Datetime []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: CDOM_Seed_Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CDOM_Seed_MLNumber []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: City [City]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CloseDate [CloseDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ClosePrice [ClosePrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: CoListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: CoListAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: CoListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: CoListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: Commercial []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CommunityWebSite []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: ConditionalDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: CorralCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CoSellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: CoSellingAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: Country []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 17
+Table name: CountyOrParish []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CreateAutomaticVirtualTourYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Creek []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CurrentPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 16
+Table name: Directions [Directions]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: DistancetoLightRail []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistancetoMetro []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToUTShuttle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToWaterAccess []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: DownPaymentResourceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Easements []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: EES []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EESFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ElemAOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ElementaryA []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: EndangeredSpecies []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ETJ []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Exclusions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ExpirationDate [ExpirationDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: FEMA100YrFloodPlain []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Fence []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FenceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: ForeclosureREO []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: ForeclosureREOType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GarageCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GatedCommunity []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Gr9HighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: Gr9HighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HERSIndex []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HERSYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAManagementCo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOAName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOARequirement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HOATransferFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Horses []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IDXOptInYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Improvements []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: LandSQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: LastChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: LastChangeType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LastListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: LastStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Latitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LegalDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: ListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ListAgentMLSID [ListAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: ListingAgentFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListingContractDate [ListDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ListingFinancing []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListingOfficeFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListingWillAppearOn []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListOfficeMLSID [ListOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: ListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: ListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListPrice [ListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Livestock []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Longitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LotSizeArea [LotSizeArea]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotSizeDimensions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MAPSCOGrid []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: MAPSCOPage []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MiddleIntermediateSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MiddleOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: MineralRights []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MLNumtobeCopied []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSNumber [ListingID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: NumBarns []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoMetroLightrail []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoUTShuttle []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumCorrals []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumHorsesAllowed []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumofGarages []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumSheds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: OpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OpenHouseDatePublic []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OpenHouseTimePublic []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: OpenHouseUpcoming []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: OriginalEntryTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OriginalListPrice [OriginalListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: OutofAreaCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OutofAreaCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: OutofAreaSchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ParcelNumber [TaxID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 55
+Table name: PendingDate [ContractDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PermitInternetYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoExist []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PostalCode [PostalCode]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 5
+Table name: PostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: PriceChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PropertyAddressonInternet []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PropertyConditionatSale []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertySubType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertyType [TYPE]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ProviderKey []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PublicRemarks []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 510
+Table name: RATIO_ClosePrice_By_ListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_OriginalListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_CurrentPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ListPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Region []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ReqdDocAgentInfor []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Restrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: RestrictionsYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SalesRestrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SearchExpireDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: SellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: SellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: SellingAgentMLSID [SaleAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: SellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingOfficeMLSID [SaleOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: SellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: SellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: SeniorHighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Sewer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ShedCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SoilType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SoldTerms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SrHighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: StateOrProvince [State]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Status [ListingStatus]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StatusChangeTimestamp [StatusChangeDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: StatusContractualSearchDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: StreetDirPrefix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetName [StreetName]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetNumber [StreetNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetSurface []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SubdivisionName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: SurfaceWater []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: TaxAmount []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: TaxBlock []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxLot []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxRate []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 28
+Table name: TaxYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TearDownonProperty []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: TempOffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TentativeCloseDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Title []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TitleCompany []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: Topography []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Trees []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: TypeofHomeAllowed []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UnitCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: UnitNumber [UnitNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: UpgradedEEFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEnergyEfficient []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Utilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VariableRateCommission []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: VideoTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: VideoTourLinkUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: View []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VirtualTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: VirtualTourURLUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: WaterAccess []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterAccessDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Waterfront []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterfrontDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: WaterSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: WithdrawnDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Zoned []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+
+Resource name: Property [Property]
+Class name: MULT [MultiFamily]
+Table name: ActiveOpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ActualTax []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: Address []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AddressInternet []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: Allow3rdPartyComments []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AllowAutomatedValuations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AlsoListedAs []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: Area []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AreaAmenities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AssociationFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: AssociationFeeFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AssociationFeeIncludes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AuctionDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: AuctionYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: BackOnMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: BodyofWater []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: BuyersClsgCostPdbySell []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_ChangeNotes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 250
+Table name: CDOM_Initial []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_Seed_Address_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_APN_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_Datetime []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: CDOM_Seed_Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CDOM_Seed_MLNumber []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: City [City]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CloseDate [CloseDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ClosePrice [ClosePrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: CoListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: CoListAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: CoListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: CoListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CommunityWebSite []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: ConditionalDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Construction []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CoSellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: CoSellingAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: Country []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 17
+Table name: CountyOrParish []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CreateAutomaticVirtualTourYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CurrentPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 16
+Table name: Directions [Directions]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: DisabilityFeatures []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: DistancetoLightRail []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistancetoMetro []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToUTShuttle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToWaterAccess []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: DownPaymentResourceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EES []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EESFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ElemAOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ElementaryA []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ETJ []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Exclusions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ExpirationDate [ExpirationDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: FEMA100YrFloodPlain []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Fence []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FenceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Flooring []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ForeclosureREO []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: ForeclosureREOType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: FoundationDetails []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: GatedCommunity []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Gr9HighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: Gr9HighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GreenRatingProgram []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HERSIndex []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HERSYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAManagementCo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOAName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOARequirement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HOATransferFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IDXOptInYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: LandSQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: LastChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: LastChangeType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LastListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: LastStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Latitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LaundryFacilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LegalDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: ListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ListAgentMLSID [ListAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: ListingAgentFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListingContractDate [ListDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ListingFinancing []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListingOfficeFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListingWillAppearOn []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListOfficeMLSID [ListOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: ListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: ListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListPrice [ListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Longitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LotSizeArea [LotSizeArea]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotSizeDimensions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MAPSCOGrid []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: MAPSCOPage []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MeterDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MiddleIntermediateSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MiddleOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: MLNumtobeCopied []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSNumber [ListingID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: NumBlockstoMetroLightrail []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoUTShuttle []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: OpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OpenHouseDatePublic []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OpenHouseTimePublic []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: OpenHouseUpcoming []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: OriginalEntryTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OriginalListPrice [OriginalListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: OutofAreaCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OutofAreaCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: OutofAreaSchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ParcelNumber [TaxID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 55
+Table name: PendingDate [ContractDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PermitInternetYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoExist []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PoolonProperty []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PostalCode [PostalCode]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 5
+Table name: PostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: PriceChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PropertyAddressonInternet []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PropertyConditionatSale []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertySubType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertyType [TYPE]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ProviderKey []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PublicRemarks []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 510
+Table name: RatingAchieved []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatingYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: RATIO_ClosePrice_By_ListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_OriginalListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_CurrentPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ListPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Region []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RepairsAmount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ReqdDocAgentInfor []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Restrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: RestrictionsYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Roof []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SalesRestrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SearchExpireDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: SellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: SellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: SellingAgentMLSID [SaleAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: SellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingOfficeMLSID [SaleOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: SellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: SellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: SeniorHighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Sewer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SoldTerms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SqftTotal [LivingArea]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: SquareFootSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SrHighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: StateOrProvince [State]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Status [ListingStatus]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StatusChangeTimestamp [StatusChangeDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: StatusContractualSearchDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: StoriesLookup []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirPrefix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetName [StreetName]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetNumber [StreetNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SubdivisionName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: TaxAmount []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: TaxBlock []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxFilledSqftTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TaxLot []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxRate []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 28
+Table name: TaxYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TempOffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TenantPays []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: TentativeCloseDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Title []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TitleCompany []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TotalActualRent []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Trees []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UnitCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: UnitMix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UnitNumber [UnitNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: UpgradedEEFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEnergyEfficient []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Utilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VideoTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: VideoTourLinkUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: View []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VirtualTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: VirtualTourURLUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: WaterSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: WithdrawnDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: YearBuilt [YearBuilt]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: YearBuiltException []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+
+Resource name: Property [Property]
+Class name: FARM [Farm]
+Table name: AC []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ActiveOpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ActualTax []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: Addition []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Address []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AddressInternet []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: Allow3rdPartyComments []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AllowAutomatedValuations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AlsoListedAs []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: Area []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AreaAmenities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AssociationFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: AssociationFeeFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AuctionDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: AuctionYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: BackOnMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: BarnCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: BathsFull [BathsFull]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BathsHalf [BathsHalf]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BathsTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BedsTotal [BEDS]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BodyofWater []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: BuilderName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 40
+Table name: BuildingsList []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: BuyersClsgCostPdbySell []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_ChangeNotes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 250
+Table name: CDOM_Initial []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_Seed_Address_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_APN_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_Datetime []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: CDOM_Seed_Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CDOM_Seed_MLNumber []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: City [City]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CloseDate [CloseDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ClosePrice [ClosePrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: CoListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: CoListAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: CoListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: CoListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CommunityWebSite []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: ConditionalDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Construction []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CorralCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CoSellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: CoSellingAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: Country []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 17
+Table name: CountyOrParish []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CoveredSpaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CreateAutomaticVirtualTourYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Creek []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CultivatedAcres []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CurrentPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 16
+Table name: DepthofProperty []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: DiningDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Directions [Directions]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: DisabilityFeatures []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: DistancetoLightRail []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistancetoMetro []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToUTShuttle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToWaterAccess []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: DownPaymentResourceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Easements []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: EES []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EESFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ElemAOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ElementaryA []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: EnclosedAcres []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: EnclosedFencePercentage []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: EnclosedFencesCondDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: EndangeredSpecies []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ETJ []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Exclusions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ExpirationDate [ExpirationDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ExteriorFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Faces []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Farm []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FarmVegetable []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FEMA100YrFloodPlain []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Fence []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FenceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: FireplaceFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Flooring []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ForeclosureREO []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: ForeclosureREOType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: FoundationDetails []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: GADescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: GarageCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GatedCommunity []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Gr9HighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: Gr9HighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GrassAcres []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: GrassNatural []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: GreenRatingProgram []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GuestAccommodations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Heating []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: HERSIndex []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HERSYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOARequirement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HOAYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Horses []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: HouseOnProperty []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IDXOptInYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Improvements []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: InteriorFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Kitchen []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: KitchenAppliances []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LandSQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: LastChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: LastChangeType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LastListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: LastStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Latitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LaundryFacilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Leases []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LegalDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: ListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ListAgentMLSID [ListAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: ListingAgentFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListingContractDate [ListDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ListingFinancing []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListingOfficeFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListingWillAppearOn []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListOfficeMLSID [ListOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: ListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: ListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListPrice [ListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Longitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LotSizeArea [LotSizeArea]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: MAPSCOGrid []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: MAPSCOPage []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: MasterDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MasterMain []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MiddleIntermediateSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MiddleOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: MineralRights []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MLNumtobeCopied []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSNumber [ListingID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: NumBarns []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumCorrals []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumDining []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumFireplaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumHorsesAllowed []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumLiving []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumMainLevelBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumofGarages []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumofPonds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumofWells []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumOtherLevelBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumSheds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: OpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OpenHouseDatePublic []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OpenHouseTimePublic []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: OpenHouseUpcoming []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: Operation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: OriginalEntryTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OriginalListPrice [OriginalListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: OutofAreaCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OutofAreaCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: OutofAreaSchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ParcelNumber [TaxID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 55
+Table name: ParkingFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: PendingDate [ContractDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PerimeterFencePercentage []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PerimeterFencesCondDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PermitInternetYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoExist []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PoolDescronProp []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: PoolonProperty []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PostalCode [PostalCode]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 5
+Table name: PostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: PriceChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PropertyAddressonInternet []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PropertyConditionatSale []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertySubType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertyType [TYPE]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ProviderKey []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PublicRemarks []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 510
+Table name: RatingAchieved []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatingYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: RATIO_ClosePrice_By_ListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_OriginalListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_CurrentPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ListPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Region []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RepairsAmount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ReqdDocAgentInfor []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Restrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: RestrictionsYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: RoadFrontage []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Roof []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Rooms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SalesRestrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SearchExpireDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: SellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: SellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: SellingAgentMLSID [SaleAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: SellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingOfficeMLSID [SaleOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: SellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: SellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: SeniorHighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Sewer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ShedCondition []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SignOnProperty []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SoilType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SoldTerms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SprinklerSystem []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SqftTotal [LivingArea]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: SquareFootSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SrHighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: StateOrProvince [State]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Status [ListingStatus]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StatusChangeTimestamp [StatusChangeDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: StatusContractualSearchDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: Steps []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: StoriesLookup []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirPrefix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetName [StreetName]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetNumber [StreetNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetSurface []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SubdivisionName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: TaxAmount []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: TaxBlock []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxFilledSqftTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TaxLot []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxRate []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 28
+Table name: TaxYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TempOffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TentativeCloseDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TillableAcres []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Title []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TitleCompany []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: Topography []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Trees []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UnitCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: UnitNumber [UnitNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: UpgradedEEFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEnergyEfficient []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Utilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VideoTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: VideoTourLinkUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: View []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VirtualTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: VirtualTourURLUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: WaterAccess []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterAccessDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Waterfront []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterfrontDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: WaterSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: WithdrawnDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: YearBuilt [YearBuilt]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: YearBuiltException []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+
+Resource name: Property [Property]
+Class name: COMM [Commercial]
+Table name: AC []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ACPaidBy []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AcquistionInclusion []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ActiveOpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ActualTax []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: ADACompliantYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AddOn []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Address []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AddressInternet []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: Allow3rdPartyComments []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AllowAutomatedValuations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AlsoListedAs []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: AnnualGasExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: AnnualLandscapingExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: AnnualOAFees []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: AnnualPadFee []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: AnnualReplacementReserves []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: ApproxCompletionDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Area []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AuctionDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: AuctionYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: BackOnMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: BaseRentEscalation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: BayDepthFrom []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BayDepthTo []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BayDoorHeight []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 8
+Table name: BayDoors []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 8
+Table name: BayDoorWidth []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 8
+Table name: Bays []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 8
+Table name: BuildingAreaTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BuildingAssessment []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BuildingClass []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: BusinessName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: BusinessType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: BuyersClsgCostPdbySell []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CAMMeasured []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CAMPaymentFreq []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CDOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_ChangeNotes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 250
+Table name: CDOM_Initial []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_Seed_Address_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_APN_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_Datetime []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: CDOM_Seed_Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CDOM_Seed_MLNumber []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: CeilingHeightClearance []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: City [City]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CloseDate [CloseDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ClosePrice [ClosePrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: CoListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: CoListAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: CoListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: CoListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CommonAreaMaintenance []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 30
+Table name: CommonAreaMaintenanceDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ConditionalDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Construction []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CoSellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: CoSellingAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: Country []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 17
+Table name: CountyOrParish []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CreateAutomaticVirtualTourYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CurrentBuildingUse []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CurrentPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 16
+Table name: Defects []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Directions [Directions]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: DisabilityFeatures []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: DistancetoLightRail []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistancetoMetro []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToUTShuttle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToWaterAccess []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: DownPaymentResourceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Easements []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: EES []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EESFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ElectricExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: Elevators []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: EndangeredSpecies []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: EquipmentFeaturesAvailable []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Escalation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: ETJ []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ExpirationDate [ExpirationDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: FEMA100YrFloodPlain []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: FinishAllowance []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 30
+Table name: FinishAllowanceDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Flooring []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FloorLocation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ForeclosureREO []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: ForeclosureREOType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: FoundationDetails []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FreewayHighwayDistance []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GradeTopography []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: GreenRatingProgram []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GrossBuildingSqFt []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: GrossBuildingSqFtSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GrossScheduledIncome []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HandicapAmenities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Heating []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: HeatPaidBy []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HERSIndex []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HERSYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IDXOptInYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IncomeExpenseSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: InsuranceExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: InteriorCeilingHeight []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: InteriorWalls []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: LandAreaMeasurement []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 30
+Table name: LandAreaSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LandAreaType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LandAssessment []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: LandDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LandLeaseFee []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LargestAvailableSpace []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: LargestAvailSpaceMeas []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LastChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: LastChangeType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LastListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: LastStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Latitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LeaseConditions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LeaseExpirationDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: LeaseFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LeaseMeasurement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LeaseRemarks []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: LeaseTermFrom []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: LeaseTermFromMeas []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LeaseTermTo []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: LeaseTermToMeas []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LeaseType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LegalDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: License []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ListAgentMLSID [ListAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: ListingAgentFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListingContractDate [ListDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ListingFinancing []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListingOfficeFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListingWillAppearOn []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListOfficeMLSID [ListOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: ListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: ListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListPrice [ListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Loading []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Longitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: MaintenanceExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: MajorTenant []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: ManagementCompany []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ManagementCoRep []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: MAPSCOGrid []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: MAPSCOPage []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MaxRate []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: MaxSpan []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 8
+Table name: MinRate []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: MLNumtobeCopied []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSNumber [ListingID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MonthlyPayment []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: MortgageCompany []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: MultiZoning []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: NetOperatingIncome []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NetRentableArea []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NetRentableAreaSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: NumberOfUnitsTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoMetroLightrail []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoRail []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoUTShuttle []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBuildings []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumOffices []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumParkingSpaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumPools []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumToiletsRestrooms []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OccupancyPct []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: OpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OpenHouseDatePublic []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OpenHouseTimePublic []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: OpenHouseUpcoming []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: OperatingDataYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OperatingExpense []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OptiontoRenewLease []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: OriginalEntryTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OriginalListPrice [OriginalListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: OtherExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: OutofAreaCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OutofAreaCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: OwnerPays []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ParcelNumber [TaxID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 55
+Table name: Parking []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ParkingFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ParkingFeeFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ParkingFeeFrom []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ParkingFeeTo []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ParkingRatio []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 12
+Table name: PendingDate [ContractDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PermitInternetYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoExist []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PostalCode [PostalCode]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 5
+Table name: PostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: PriceBldgSF []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: PriceChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PriceUnit []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ProjectName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: PropertyAddressonInternet []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PropertyAssociation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertyConditionatSale []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertySubType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertyType [TYPE]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ProviderKey []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PublicRemarks []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 510
+Table name: RailService []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: RateMeasurement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatePaymentFreq []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatingAchieved []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatingYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: RATIO_ClosePrice_By_ListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_OriginalListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_CurrentPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ListPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Region []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RenovatedDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RenovationYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ReqdDocAgentInfor []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Restrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: RestrictionsYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: RoadFrontageDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RoadSurface []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Roof []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SalesRestrictions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ScheduledGrossIncome []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: SearchExpireDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: SellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: SellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: SellingAgentMLSID [SaleAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: SellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingOfficeMLSID [SaleOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: SellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: SellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: SeparateMeter []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Sewer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SewerPaidBy []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SmallestAvailableSpace []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: SmallestAvailSpaceMeas []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SoldTerms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SpaceDivisible []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SPriceBldgSF []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: StateOrProvince [State]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Status [ListingStatus]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StatusChangeTimestamp [StatusChangeDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: StatusContractualSearchDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: StopExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 30
+Table name: StopExpenseDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: Stories []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: StreetDirPrefix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetName [StreetName]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetNumber [StreetNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetSurface []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: StreetTrafficCount []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SubdivisionName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: SuiteSizeAvailable []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 8
+Table name: SuiteSizeAvailMeasurement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TaxAmount []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 10
+Table name: TaxBlock []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxLot []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxRate []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 28
+Table name: TaxYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TempOffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TenantExpenses []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: TentativeCloseDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Title []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Topography []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: TotalAnnualOperatingExpenses []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: TotalAssessmentValue []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TotalAvailableSpaceMeasure []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TotalAvailSpace []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TotApxNetRentSpc []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TotApxNetRentSpcDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TotApxSqftBldgDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: TotApxSqftLand []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TotApxSqftLandDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Transfer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 8
+Table name: UnitCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: UnitNumber [UnitNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: UpgradedEEFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEnergyEfficient []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Utilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VideoTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: VideoTourLinkUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: View []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VirtualTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: VirtualTourURLUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: WaterAccess []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterAccessDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Waterfront []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterfrontDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: WaterPaidBy []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: WaterSewerExpense []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: WaterSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: WithdrawnDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: YearBuilt [YearBuilt]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: YearBuiltException []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: YearEstablished []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: YearsOnLease []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Zoning []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 5
+
+Resource name: Property [Property]
+Class name: RESILEASE [Residential Lease]
+Table name: AC []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ActiveOpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: AdditionalPetFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: AdditionalPetFeeDescript []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Address []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AddressInternet []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AdminFeePaybleTo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: AdministrationFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: Allow3rdPartyComments []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AllowAutomatedValuations []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: AlsoListedAs []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: AppDeliveryTo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: AppDepositPayableTo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: AppFeePayableTo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: AppliancesMaintained []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ApplicationFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ApplicationPolicy []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ApplicationRequired []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ApplicationRequirements []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Area []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: AreaAmenities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: AssociationFee []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: AssociationFeeFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: BackOnMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: BathsFull [BathsFull]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BathsHalf [BathsHalf]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BathsTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BedsTotal [BEDS]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: BodyofWater []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CDOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_ChangeNotes []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 250
+Table name: CDOM_Initial []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CDOM_Seed_Address_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_APN_Match []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CDOM_Seed_Datetime []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: CDOM_Seed_Listing_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CDOM_Seed_MLNumber []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: CeilingFanLocation []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CeilingFanYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CertifiedFunds []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: City [City]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CloseDate [CloseDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ClosePrice [ClosePrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: CoListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: CoListAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: CoListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoListOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: CoListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CommunityWebSite []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: ComplexName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: ConditionalDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Construction []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: CoSellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 150
+Table name: CoSellingAgentMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: CoSellingOfficeMLSID []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: CoSellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: CoSellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: Country []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 17
+Table name: CountyOrParish []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: CoveredSpaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: CreateAutomaticVirtualTourYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: CurrentPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 16
+Table name: DatePossession []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: DiningDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Directions [Directions]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: DisabilityFeatures []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: DisabilityFeaturesDesc []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: DistancetoLightRail []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistancetoMetro []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToUTShuttle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DistanceToWaterAccess []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: DOM []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: DownPaymentResourceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Dryer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: DryerMaintained []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EES []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: EESFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ElemAOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: ElementaryA []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ExpirationDate [ExpirationDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ExteriorFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Faces []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: FeeDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: FEMA100YrFloodPlain []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Fence []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FenceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: FireplaceFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FirstMonthRentPayableTo []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Flooring []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: FloorPlanNameNumber []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: FoundationDetails []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Furnished []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GatedCommunity []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Gr9HighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: Gr9HighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: GreenRatingProgram []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Heating []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: HERSIndex []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HERSYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: HOAName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: HOARequirement []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: HOAYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Horses []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: IDXOptInYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: InteriorFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: InvoiceSubmission []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: IsDeleted []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Kitchen []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: KitchenAppliances []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LandSQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 13
+Table name: LastChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: LastChangeType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: LastListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: LastStatus []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Latitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LaundryFacilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LeaseGuarantor []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: LegalDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: ListAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ListAgentMLSID [ListAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: ListingAgentFax []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: ListingContractDate [ListDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: ListingWillAppearOn []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ListOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: ListOfficeMLSID [ListOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: ListOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: ListOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: ListPrice [ListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: Longitude []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: LotSizeArea [LotSizeArea]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 11
+Table name: LotSizeDimensions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: LseLengthNegotiable []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ManagedBy []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MAPSCOGrid []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: MAPSCOPage []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: MasterDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MasterMain []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Matrix_Unique_ID []
+        Table datatype: LONG
+        Unique: True
+        Max Length: 19
+Table name: MatrixModifiedDT [ModificationTimestamp]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: MaxLeaseMonths []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: MaxNumofPets []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: MemberOfficePhoneExt []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 10
+Table name: MeterDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MgmtCompany []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 40
+Table name: MiddleIntermediateSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MiddleOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: MinLeaseMonths []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: MLNumtobeCopied []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MLS []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: MLSNumber [ListingID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: MonthlyPetRent []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: MonthlyPetRentPerPetYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: MoveInRequirements []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MoveInSpecialDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: MoveInSpecialYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: NumberOfUnitsInComplex []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoMetroLightrail []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumBlockstoUTShuttle []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumDining []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumFireplaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumHorsesAllowed []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumLiving []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumMainLevelBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumOtherLevelBeds []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: NumParkingSpaces []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OccupantPhoneOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 16
+Table name: OccupantType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: OffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: OneTimeExpenses []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: OnlineAppInstructions []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: OnlineAppInstructionsPublic []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: OnSiteComplianceYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: OpenHouseCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: OpenHouseDatePublic []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OpenHouseTimePublic []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: OpenHouseUpcoming []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: OriginalEntryTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: OriginalListPrice [OriginalListPrice]
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: OutdoorLivingFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: OutofAreaCity []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: OutofAreaCounty []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 30
+Table name: OutofAreaSchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: OwnerPays []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ParcelNumber [TaxID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 55
+Table name: ParkingFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ParkingFeeFrequency []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: ParkingFeeFrom []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: ParkingFeeTo []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PendingDate [ContractDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PermitInternetYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PerPerson []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PerPet []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PetDeposit []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PetDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Pets []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PhotoCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PhotoExist []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PhotoModificationTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PoolDescronProp []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: PoolonProperty []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PostalCode [PostalCode]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 5
+Table name: PostalCodePlus4 []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 4
+Table name: PriceChangeTimestamp []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: PropertyAddressonInternet []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: PropertySubType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: PropertyType [TYPE]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: ProviderKey []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: PublicRemarks []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 510
+Table name: Range []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatingAchieved []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RatingYear []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: RATIO_ClosePrice_By_ListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_OriginalListPrice []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ClosePrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_CurrentPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RATIO_ListPrice_By_SQFT []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 15
+Table name: RecurringExpenses []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Refrigerator []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: RefrigeratorMaintained []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Region []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: RentersInsuranceRequiredYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: ReqdDocAgentInfor []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Roof []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Rooms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SchoolDistrict []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SearchExpireDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: Section8 []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SecurityDeposit []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: SellingAgent_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingAgentDirectWorkPhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 50
+Table name: SellingAgentFullName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
+Table name: SellingAgentMLSID [SaleAgentAgentID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 15
+Table name: SellingOffice_MUI []
+        Table datatype: LONG
+        Unique: False
+        Max Length: 19
+Table name: SellingOfficeMLSID [SaleOfficeOfficeID]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 12
+Table name: SellingOfficeName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: SellingOfficePhone []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: SeniorHighSchool []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Sewer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: ShortTermPremiumAmount []
+        Table datatype: DECIMAL
+        Unique: False
+        Max Length: 16
+Table name: ShortTermPremiumYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SmokingInside []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SoldLeasedComments []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 100
+Table name: SoldTerms []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: SpaHotTubDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SpaHotTubYN []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SprinklerSystem []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: SqftTotal [LivingArea]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: SquareFootSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SrHighOther []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 20
+Table name: StateOrProvince [State]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 2
+Table name: Status [ListingStatus]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StatusChangeTimestamp [StatusChangeDate]
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: StatusContractualSearchDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 10
+Table name: Steps []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: StoriesLookup []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirPrefix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetDirSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: StreetName [StreetName]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetNumber [StreetNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: StreetSuffix []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: SubdivisionName []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 128
+Table name: TaxBlock []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TaxFilledSqftTotal []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: TaxLot []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 25
+Table name: TempOffMarketDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TenantPays []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: TentativeCloseDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: TransactionType []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: Trees []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UnitCount []
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: UnitNumber [UnitNumber]
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 6
+Table name: UnitStyle []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEEFeatures []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: UpgradedEnergyEfficient []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: Utilities []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VideoTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: VideoTourLinkUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 500
+Table name: View []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: VirtualTourLinkBranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: VirtualTourURLUnbranded []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 255
+Table name: Washer []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: WasherMaintained []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterAccess []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterAccessDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: Waterfront []
+        Table datatype: BOOLEAN
+        Unique: False
+        Max Length: 1
+Table name: WaterfrontDescription []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 32
+Table name: WaterSource []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 1000
+Table name: WithdrawnDate []
+        Table datatype: DATE_TIME
+        Unique: False
+        Max Length: 23
+Table name: YearBuilt [YearBuilt]
+        Table datatype: INT
+        Unique: False
+        Max Length: 11
+Table name: YearBuiltException []
+        Table datatype: CHARACTER
+        Unique: False
+        Max Length: 75
